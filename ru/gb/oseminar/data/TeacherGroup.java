@@ -4,33 +4,34 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TeacherGroup {
-    // private List<Teacher> teachers;
-    // String teacher;
+    private List<Teacher> teachers;
+    Teacher teacher;
 
-    // public TeacherGroup() {
-    // teachers = new ArrayList<>();
-    // }
+    public TeacherGroup() {
+        teachers = new ArrayList<>();
+    }
 
-    // public void setTeacher(List<Teacher> students) {
-    // this.teachers = students;
-    // }
+    public void setTeacher(List<Teacher> teachers) {
+        this.teachers = teachers;
+    }
 
-    // public void addTeacherGroup(Teacher teahcer) {
-    // teachers.add(teacher);
+    public void addTeacherGroup(Teacher teahcer) {
+        teachers.add(teacher);
+    }
 
-    // public Teacher getTeacher() {
-    // return teacher;
-    // }
+    public Teacher getTeacher() {
+        return teacher;
+    }
 
-    // public void setTeacher(Teacher teacher) {
-    // this.teacher = teacher;
-    // }
+    public void setTeacher(Teacher teacher) {
+        this.teacher = teacher;
+    }
 
-    // @Override
-    // public String toString() {
-    // return "TeacherGroup{" +
-    // ", teacher=" + teacher +
-    // '}';
-    // }
+    @Override
+    public String toString() {
+        return "TeacherGroup{" +
+                ", teacher=" + teacher +
+                '}';
+    }
 
 }
